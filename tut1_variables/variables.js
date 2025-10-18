@@ -7,3 +7,6 @@ console.log(country);
 console.log(continent);
 
 console.log(population);
+
+let container="Laptop";
+console.log(container);
