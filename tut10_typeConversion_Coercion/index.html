@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type Conversion and Coercion</title>
+    <script src="./script.js"></script>
+    <style>
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: Consolas, 'Courier New', monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f917;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>Type Conversion and Coercion </h1> 
+    <p>
+        In JavaScript, type conversion refers to the process of converting a value from one data type to another. This can be done explicitly by the programmer or implicitly by JavaScript itself (type coercion).
+    </p>
+    <ul>
+        <li><b>Type Conversion</b>: This is when you manually convert a value from one type to another using functions like <code>Number()</code>, <code>String()</code>, or <code>Boolean()</code>. For example:
+            <pre><code>const str = '123';
+const num = Number(str); // Converts string to number
+</code></pre>
+        </li>
+        <li><b>Type Coercion</b>: This occurs when JavaScript automatically converts a value from one type to another during operations. For example, when you use the + operator with a string and a number, JavaScript coerces the number into a string and performs concatenation:
+            <pre><code>const result = 'The answer is ' + 42; // 'The answer is 42'
+</code></pre>
+        </li>
+    </ul>       
+
+    
+</body>
+</html>
